@@ -66,7 +66,7 @@ export default function Home() {
           View all Listings...
         </Link>
       </section>
-      <Swiper navigation>
+      {/* <Swiper navigation>
         {offerListings &&
           offerListings.length > 0 &&
           offerListings.map((listing, index) => (
@@ -81,7 +81,7 @@ export default function Home() {
               ></div>
             </SwiperSlide>
           ))}
-      </Swiper>
+      </Swiper> */}
       {/* listing results for offer, sale and rent */}
       <div className="max-w-6xl mx-auto p-3 flex flex-col gap-8 my-10">
         {offerListings && offerListings.length > 0 && (
